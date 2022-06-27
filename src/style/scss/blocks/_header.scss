@@ -1,0 +1,88 @@
+.header{
+
+  &__container{
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    padding: 0 10px;
+  }
+
+  &__content{
+    background-color: $blue;
+    min-width: 595px;
+  }
+
+  &__logo-holder{
+    padding-top: 17px;
+    padding-left: 19px;
+  }
+
+  &__content-holder{
+    padding-left: 85px;
+    padding-top: 50%;
+  }
+
+  &__pretitle{
+    color: white;
+    font-size: 16px;
+    padding-bottom: 7px;
+  }
+
+  &__title{
+    font-size: 56px;
+    font-weight: 700;
+    color: white;
+    font-family: 'Overpass', sans-serif;
+    padding-bottom: 30px;
+  }
+
+  &__text{
+    font-size: 20px;
+    color: white;
+    padding-bottom: 67px;
+    max-width: 376px;
+  }
+
+  &__button{
+    width: 192px;
+    height: 70px;
+    box-shadow: 0 10px 50px rgba(0, 0, 0, 0.3);
+    border-radius: 3px;
+    font-weight: 600;
+    font-size: 18px;
+    color: #100C46;
+    background-color: white;
+    padding: 19px 45px;
+
+    &:hover{
+      background-color: #100C46;
+      color: white;
+      transition: ease-in-out 0.3s;
+    }
+  }
+
+  &__background-holder{
+    position: relative;
+  }
+
+  &__social-media-holder{
+    background-color: #6257FE;
+    width: 162px;
+    height: 64px;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+    padding-top: 18px;
+  }
+
+  &__social-hover{
+    &:hover{
+      fill: #e4ff00;
+    }
+  }
+}

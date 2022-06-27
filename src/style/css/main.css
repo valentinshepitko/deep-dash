@@ -1,0 +1,129 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+}
+
+.container {
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+h1, h2 {
+  margin: 0;
+}
+
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  display: block;
+}
+
+.header__container {
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  padding: 0 10px;
+}
+.header__content {
+  background-color: #6257FE;
+  min-width: 595px;
+}
+.header__logo-holder {
+  padding-top: 17px;
+  padding-left: 19px;
+}
+.header__content-holder {
+  padding-left: 85px;
+  padding-top: 50%;
+}
+.header__pretitle {
+  color: white;
+  font-size: 16px;
+  padding-bottom: 7px;
+}
+.header__title {
+  font-size: 56px;
+  font-weight: 700;
+  color: white;
+  font-family: "Overpass", sans-serif;
+  padding-bottom: 30px;
+}
+.header__text {
+  font-size: 20px;
+  color: white;
+  padding-bottom: 67px;
+  max-width: 376px;
+}
+.header__button {
+  width: 192px;
+  height: 70px;
+  box-shadow: 0 10px 50px rgba(0, 0, 0, 0.3);
+  border-radius: 3px;
+  font-weight: 600;
+  font-size: 18px;
+  color: #100C46;
+  background-color: white;
+  padding: 19px 45px;
+}
+.header__button:hover {
+  background-color: #100C46;
+  color: white;
+  transition: ease-in-out 0.3s;
+}
+.header__background-holder {
+  position: relative;
+}
+.header__social-media-holder {
+  background-color: #6257FE;
+  width: 162px;
+  height: 64px;
+  position: absolute;
+  right: 0;
+  text-align: center;
+  display: flex;
+  gap: 25px;
+  justify-content: center;
+  padding-top: 18px;
+}
+.header__social-hover:hover {
+  fill: #e4ff00;
+}
+
+.about__content {
+  background-color: #100C46;
+}
+.about__pretitle {
+  font-size: 16px;
+  color: #6257FE;
+}
+.about__title {
+  font-size: 56px;
+  font-family: "Overpass", sans-serif;
+  color: #6257FE;
+}
+.about__text {
+  font-size: 20px;
+  color: white;
+}
+/*# sourceMappingURL=main.css.map */
