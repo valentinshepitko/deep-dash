@@ -37,13 +37,8 @@ img {
   display: block;
 }
 
-.header__container {
-  max-width: 1440px;
-  width: 100%;
-  margin: 0 auto;
+.header__holder {
   display: flex;
-  justify-content: center;
-  padding: 0 10px;
 }
 .header__content {
   background-color: #6257FE;
@@ -107,11 +102,21 @@ img {
   padding-top: 18px;
 }
 .header__social-hover:hover {
-  fill: #e4ff00;
+  fill: #100C46;
+}
+.header__image {
+  width: 100%;
 }
 
+.about__holder {
+  position: relative;
+}
 .about__content {
   background-color: #100C46;
+  max-width: 720px;
+}
+.about__content-holder {
+  padding: 225px 160px 225px 85px;
 }
 .about__pretitle {
   font-size: 16px;
@@ -121,9 +126,36 @@ img {
   font-size: 56px;
   font-family: "Overpass", sans-serif;
   color: #6257FE;
+  padding-bottom: 15px;
 }
 .about__text {
   font-size: 20px;
   color: white;
+  max-width: 476px;
+}
+.about__photo-holder {
+  position: absolute;
+  top: 76px;
+  right: 82px;
+}
+.about__photo {
+  max-width: 748px;
+}
+
+.services__content {
+  max-width: 845px;
+}
+.services__column {
+  max-width: 296px;
+}
+.services__pre-title {
+  color: #6257FE;
+  font-size: 16px;
+  padding-bottom: 7px;
+}
+.services__title {
+  font-family: "Overpass", sans-serif;
+  color: #100C46;
+  padding-bottom: 85px;
 }
 /*# sourceMappingURL=main.css.map */
