@@ -363,6 +363,7 @@ img {
   font-weight: 600;
   font-size: 18px;
   cursor: pointer;
+  margin-bottom: 102px;
 }
 .footer__button:hover {
   background-color: #100C46;
@@ -372,5 +373,50 @@ img {
   background-color: #6257FE;
   max-width: 595px;
   width: 100%;
+}
+.footer__contact-content {
+  padding-left: 345px;
+  padding-top: 50%;
+}
+.footer__phone {
+  color: white;
+  font-weight: 600;
+  font-size: 20px;
+  padding-bottom: 12px;
+  display: block;
+}
+.footer__number-holder {
+  padding-bottom: 85px;
+}
+.footer__number {
+  display: block;
+  color: white;
+  font-size: 16px;
+}
+.footer__email {
+  color: white;
+  font-weight: 600;
+  font-size: 20px;
+  padding-bottom: 12px;
+  display: block;
+}
+.footer__email-link {
+  display: block;
+  color: white;
+  font-size: 16px;
+  padding-bottom: 85px;
+}
+.footer__address {
+  color: white;
+  font-weight: 600;
+  font-size: 20px;
+  padding-bottom: 12px;
+  display: block;
+}
+.footer__address-link {
+  display: block;
+  color: white;
+  font-size: 16px;
+  max-width: 150px;
 }
 /*# sourceMappingURL=main.css.map */
