@@ -1,0 +1,26 @@
+.portfolio{
+
+  padding-bottom: 175px;
+
+  &__pre-title{
+    font-size: 16px;
+    color: $blue;
+    padding-bottom: 7px;
+    text-align: center;
+  }
+
+  &__title{
+    font-weight: 700;
+    font-family: "Overpass", sans-serif;
+    font-size: 56px;
+    text-align: center;
+    padding-bottom: 77px;
+  }
+
+  &__holder{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 23px;
+    justify-content: center;
+  }
+}
