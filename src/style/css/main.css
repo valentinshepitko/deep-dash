@@ -294,6 +294,7 @@ img {
 .footer__holder {
   display: flex;
   flex-wrap: wrap;
+  position: relative;
 }
 .footer__form {
   padding-left: 85px;
@@ -378,6 +379,9 @@ img {
   padding-left: 345px;
   padding-top: 50%;
 }
+.footer__icon {
+  margin-right: 15px;
+}
 .footer__phone {
   color: white;
   font-weight: 600;
@@ -418,5 +422,14 @@ img {
   color: white;
   font-size: 16px;
   max-width: 150px;
+}
+.footer__map {
+  position: absolute;
+  right: 285px;
+  top: 135px;
+}
+.footer__copyright {
+  text-align: center;
+  padding-top: 131px;
 }
 /*# sourceMappingURL=main.css.map */
