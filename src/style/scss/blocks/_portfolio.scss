@@ -22,5 +22,11 @@
     flex-wrap: wrap;
     gap: 23px;
     justify-content: center;
+
+    @include breakpoint('xxl'){
+      gap: 13px;
+    }
   }
+
+
 }

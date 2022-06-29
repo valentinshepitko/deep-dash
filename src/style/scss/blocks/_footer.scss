@@ -10,6 +10,10 @@
     padding-left: 85px;
     max-width: 825px;
     width: 100%;
+
+    @include breakpoint('xxl'){
+      width: 50%;
+    }
   }
 
   &__pre-title{
@@ -93,6 +97,10 @@
     background-color: $blue;
     max-width: 595px;
     width: 100%;
+
+    @include breakpoint('xxl'){
+      width: 50%;
+    }
   }
 
   &__contact-content{
@@ -156,10 +164,16 @@
     position: absolute;
     right: 285px;
     top: 135px;
+
+    @include breakpoint('xxl'){
+      width: 30%;
+      right: 325px;
+    }
   }
 
   &__copyright{
     text-align: center;
     padding-top: 131px;
+    padding-bottom: 101px;
   }
 }

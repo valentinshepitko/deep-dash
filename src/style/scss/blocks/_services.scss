@@ -18,6 +18,11 @@
     display: flex;
     flex-wrap: wrap;
     gap: 86px;
+
+    @include breakpoint('xl'){
+      margin: 0 auto;
+      justify-content: center;
+    }
   }
 
   &__column{
@@ -63,14 +68,26 @@
 
   &__photo{
     right: 185px;
-    top: 145px;
+    top: 255px;
     position: absolute;
+
+    @include breakpoint('xl'){
+      display: none;
+    }
+
+    @include breakpoint('xxl'){
+      max-width: 260px;
+    }
   }
 
   &__phone{
     position: absolute;
     right: 10px;
-    bottom: 0
+    bottom: 0;
+
+   @include breakpoint('xxl'){
+      display: none;
+    }
   }
 
   &__line{

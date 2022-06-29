@@ -35,10 +35,22 @@
     position: absolute;
     top: 76px;
     right: 82px;
+
+    @include breakpoint('xxl'){
+      top: 76px;
+      right: 342px;
+      max-width: 30%;
+    }
   }
 
   &__photo{
     max-width: 748px;
-  }
 
+    @include breakpoint('xl'){
+      max-width: 474px;
+      position: absolute;
+      left: -115px;
+      top: 150px;
+    }
+  }
 }

@@ -2,12 +2,23 @@
 
   &__holder{
     display: flex;
-
   }
 
   &__content{
     background-color: $blue;
-    min-width: 595px;
+    max-width: 595px;
+    width: 100%;
+
+    @include breakpoint('xl'){
+      width: 100%;
+      max-width: 1024px;
+    }
+  }
+
+  &__content-wrapper{
+    @include breakpoint('xl'){
+      margin: 0 auto;
+    }
   }
 
   &__logo-holder{
@@ -18,6 +29,12 @@
   &__content-holder{
     padding-left: 85px;
     padding-top: 50%;
+
+    @include breakpoint('xl'){
+      padding-top: 150px;
+      padding-bottom: 150px;
+      padding-left: 30%;
+    }
   }
 
   &__pretitle{
@@ -61,6 +78,13 @@
 
   &__background-holder{
     position: relative;
+  }
+
+  &__image-holder{
+
+    @include breakpoint('xl'){
+      display: none;
+    }
   }
 
   &__social-media-holder{
